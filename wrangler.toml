@@ -1,0 +1,13 @@
+name = "page-to-markdown"
+main = "worker.js"
+compatibility_date = "2025-06-21"
+workers_dev = true
+preview_urls = false
+
+[[routes]]
+pattern = "tools.paste.im/page-to-markdown*"
+zone_name = "paste.im"
+
+[[routes]]
+pattern = "page-to-markdown.paste.im"
+custom_domain = true
